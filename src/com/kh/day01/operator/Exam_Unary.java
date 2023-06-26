@@ -5,9 +5,9 @@ public class Exam_Unary {
 		
 		//단항 연산자
 			int a = 1;
-			System.out.println(a++);
+			System.out.println(a++); //후위연산(나중연산)
 			// a가 2인 상태임
-			System.out.println(a);
+ 			System.out.println(a); //전위연산(먼저연산)
 			System.out.println(++a);
 			
 			
