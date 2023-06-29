@@ -30,7 +30,9 @@ public class Run {
 //		exArr.practice2();
 		
 //		exArr.practice3();
-		exArr.practice6();
+//		exArr.part1_06();
+		
+		exArr.lottoExercise();
 		
 		
 

@@ -2,6 +2,7 @@ package com.kh.day04;
 import java.util.*;
 
 import com.kh.day04.dimarray.exercise.Exercise_DimArray;
+import com.kh.day04.exercise.Exercise_ScoreProgram;
 import com.kh.day04.myexception.exercise.Exercise_Exception;
 
 public class Run {
@@ -12,9 +13,12 @@ public class Run {
 	{
 		Exercise_DimArray dim = new Exercise_DimArray();
 		Exercise_Exception exc = new Exercise_Exception();
+		Exercise_ScoreProgram pro = new Exercise_ScoreProgram();
 		
 //		exc.exercise11();
-		exc.practice2();
+//		exc.exercise4();
+		
+		pro.grade();
 		
 //		dim.exercise1();
 //		dim.exercise2();
